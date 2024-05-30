@@ -1,0 +1,104 @@
+.wrapped{
+	/* background: url(img/bg.jpg); */
+	background-size: cover;
+	min-height:100vh;
+	background-color:yellow;
+}
+	
+	
+	body {
+	margin:0;
+	
+	}
+	.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Verdana;
+	}
+	
+	.menu li {
+	display: inline-block;
+	
+	}
+	
+.menu a {
+
+text-decoration: none;
+display: block;
+color:gold;
+font-size: 24px;
+padding: 20px;
+}
+	
+	.menu a:hover {
+	color:blue;
+	}
+	
+	.menu a.active {
+	
+	color:red;
+	
+	}
+	
+	.header {
+	display: flex;
+	align-items:center;
+	gap:150px;
+	
+	}
+	
+	/* Головна */
+.main {
+	width: 1000px;
+	margin: 0 auto; /* центрування по горизонталі для мейну */
+	padding-top: 100px;
+}
+
+.title {
+	color: black;
+	font-family: Verdana;
+	font-size: 40px;
+}
+
+.subtitle {
+	color: black;
+	font-family: Verdana;
+}
+
+.main-img {
+	float: right;
+}
+
+/* КНОПКА */
+.button {
+	width: 140px;
+	height: 60px;
+	font-family: Verdana;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: white;
+	border: 4px double purple;
+}
+
+.button:hover {
+	border: 4px double white;
+	background-color: transparent;
+}
+
+.button a {
+	text-decoration: none;
+	color: purple;
+}
+	.logo {border-radius:20px;}
+	
+	.foto {
+	float:right;}
+	
+	.car { font-size:24px;}
+	
+	.foto1 {height:200px;}
+	
+	.list {list-style:none; text-align:center;}
+	
+	.tovars {padding-bottom: 1px;}
